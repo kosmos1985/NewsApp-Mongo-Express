@@ -1,11 +1,27 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font:'Zilla Slab Highlight', cursive;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(234%2c 244%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M2 250L252 0L306 0L56 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M281.6 250L531.6 0L597.6 0L347.6 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M517.2 250L767.2 0L903.7 0L653.7 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M718.8000000000001 250L968.8000000000001 0L1106.8000000000002 0L856.8000000000001 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M1414 250L1164 0L948 0L1198 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M1169.4 250L919.4000000000001 0L724.4000000000001 0L974.4000000000001 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M948.8 250L698.8 0L622.3 0L872.3 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M696.1999999999999 250L446.19999999999993 0L381.69999999999993 0L631.6999999999999 250z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3cpath d='M1238.8635872548386 250L1440 48.863587254838706L1440 250z' fill='url(%23SvgjsLinearGradient1013)'%3e%3c/path%3e%3cpath d='M0 250L201.1364127451613 250L 0 48.863587254838706z' fill='url(%23SvgjsLinearGradient1014)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1013'%3e%3cstop stop-color='rgba(61%2c 82%2c 126%2c 0.1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(61%2c 82%2c 126%2c 0.1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1014'%3e%3cstop stop-color='rgba(61%2c 82%2c 126%2c 0.1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(61%2c 82%2c 126%2c 0.1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
 
-a {
-  color: #00B7FF;
+ul{
+ list-style: none;
+ display: flex;
+ justify-content: left;
 }
+li{
+  text-align: center;
+  margin: 1%;
+  width: 120px;
+}
+a{
+  color:lightslategrey ;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 2%;
+  box-shadow: 10px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
 .active{
   font-weight: bold;
 }
