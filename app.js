@@ -5,6 +5,16 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var config = require('./config');
+const mongoose = require('mongoose');
+
+mongoose.connect(config.db, { useNewUrlParser: true, useUnifiedTopology: true });
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'conection error:'));
+db.once('open', function ()
+{
+  console.log('db connect');
+});
 
 var indexRouter = require('./routes/index');
 var newsRouter = require('./routes/news');
